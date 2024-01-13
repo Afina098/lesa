@@ -1,0 +1,73 @@
+header{
+    background-color: rgb(161, 206, 236);
+    color: white;
+    font-size: 20px;
+    height: 330px;
+    background-image: url(https://rgo.ru/upload/s34web.imageadapter/083f9e3d5053f6946e2176877d9c1440/elena_shubnicina_nebesa_i_vody_540592_komi.jpg);
+background-size: cover;
+text-align: center;
+text-shadow: black 2px 5px 5px;
+font-family: "georgia, serif";    
+font-style: italic;  
+background-position-y: -220px;     
+padding-top: 50px; 
+      
+}
+main{
+    background-color: rgba(0, 78, 150, 0.56);
+    color: black;
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.block1{
+    background: radial-gradient(#2d8330, #a1f55d);
+    width: 50%;
+    height: 100%;
+    display:flex;
+    text-align: center;
+   
+}
+.block2{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( to left, rgb(89, 235, 96), rgb(18, 115, 205)); 
+    padding: 10px;
+}
+.block3{
+    background: conic-gradient(#308856, #81ed5d);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    
+}
+footer{
+
+    color: black;
+    font-size: 20px;
+    height: 40%;
+    width: 100%;
+
+
+}
+
+.right{
+    background-color:rgb(17, 176, 181);
+    width:70%;
+    height: 150px;
+    float: right;
+
+}
+.left{
+    background-color:rgb(126, 95, 160);
+    width:30%;
+    height: 150px;
+    float: left;
+    text-align: center;
+
+}
+ body{
+    margin: 0;
+ }
